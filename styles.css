@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, h6, .navbar-brand{
+    font-family: 'Raleway';
+}
+
+.navbar-brand{
+    font-weight: 900;
+}
+
+.logos img{
+    object-fit: contain;
+    mix-blend-mode: color-burn; 
+}
+
+.bg-azul {
+    background-color: #3598D8;
+    }
+
+.bg-naranja {
+    background-color: #D45C5D;
+    }
+
+.bg-animada {
+	background: linear-gradient(-45deg, #D45C5D, #e73c7e, #3598D8, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.botonjraa {
+    background-color: #3598D8;
+    border-width: 0px;
+} 
+.botonjraa:hover {
+    background: #D45C5D;
+}

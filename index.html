@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornada Regional de Aulas Abiertas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/fontawesome/css/solid.css" rel="stylesheet">
+
 </head>
 <body>
 
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">JRAA</a>
+          <a class="navbar-brand" href="#"><i class="fas fa-door-open me-2"></i>JRAA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -21,10 +27,10 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true" href="participacion.html">Participación</a>
+                <a class="nav-link" href="cronograma.html">Cronograma</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cronograma.html">Cronograma</a>
+                <a class="nav-link disabled" aria-disabled="true" href="participacion.html">Participación</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true" href="arancel.html">Arancel</a>
@@ -38,10 +44,18 @@
       </nav>
 
       <!--HERO-->
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
+      <div class="p-5 mb-4 bg-body-tertiary bg-animada">
+        <div class="container-fluid py-5 text-center" style="color: white;">
+          <h1 class="display-5 fw-bold">Jornada Regional de Aulas Abiertas</h1>
+          <p class="fs-4">Facultad de Ciencias Económicas UNC</p>
+          <button class="btn btn-primary btn-lg botonjraa" type="button">Ver cronograma</button>
+        </div>
+      </div>
+    
+      
+    <div class="container align-items-center">
+        <div class="row justify-content-center my-5">
+            <div class="col-md-8">
                 <p>Las y los docentes compartimos de manera informal, con entusiasmo o preocupación los desafíos sobre las actividades que se llevan adelante en el aula, en particular en tiempos donde vivimos los efectos y consecuencias de la pandemia junto a la proliferación de nuevas tecnologías digitales. El aislamiento, la sobrecarga de trabajo, la cultura del individualismo atentan contra la posibilidad del trabajo en equipo, la cultura colaborativa y el sentirnos parte de un proyecto compartido.
                 </p>
                 <p>Fruto de experiencias anteriores, realizadas en el marco de nuestra casa de estudios, creemos que, entre quienes formamos a futuros profesionales de las Ciencias Económicas, compartimos preocupaciones similares, ¿por qué entonces no compartir nuestras propuestas con otras universidades?. La idea es promover el encuentro, la comunicación, el conocimiento colaborativo.
@@ -50,10 +64,64 @@
                 </p>
                 <p>Proponemos una jornada de trabajo en la que, sin ánimo de juzgar ni competir, podamos compartir y aprender del aula abierta con colegas. 
                 </p>
-
             </div>
         </div>
+        <div class="row justify-content-center my-5">
+            <div class="col-3">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Objetivo general</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Objetivos específicos</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Destinatarios</a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">Objetivo general</h4>
+                <p>Generar espacios de encuentro e intercambio destinados a socializar, discutir y analizar las experiencias de trabajo en las aulas de las carreras de las Ciencias Económicas.
+                </p>
+                <h4 id="list-item-2">Objetivos específicos</h4>
+                <ul><li>Contribuir al diálogo entre saberes y prácticas desde el quehacer cotidiano en el aula.
+                    <li>Explorar nuevas posibilidades educativas que se adecuen a los desafíos en contextos de aulas numerosas, implementación de nuevos planes de estudio y virtualidad.</li>
+                    <li>Aportar desde lo individual y colectivo nuevos enfoques metodológicos a las prácticas de enseñanza. </li>
+                    <li>Constituir redes interinstitucionales entre unidades académicas afines, en vistas a la contribución en otros proyectos académicos. </li>
+                    <li>Identificar necesidades de formación docente en el contexto educativo actual.</li>
+                    </ul>
+                <h4 id="list-item-3">Destinatarios</h4>
+                <p>Profesores, Docentes, Auxiliares y Adscriptos de las Facultades de Ciencias Económicas.</p>
+              </div>
+            </div>
+          </div>
+          
     </div>
+
+<!-- FOOTER -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->    
+    
+
+    <div class="container text-center text-md-start pt-3 border-top">
+    <h6 class="text-uppercase fw-bold mb-2 mt-5"> <i class="fas fa-arrows-to-circle me-3"></i>Organizan</h6>
+      <p>
+      Facultades de Ciencias Económicas pertenecientes a las universidades públicas de la región CPRES Centro.
+      </p>
+    </div>
+
+  <div class="d-flex gap-2 justify-content-center align-items-center text-center p-4">
+    <div class="col p-2 sm-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/unc.png" alt="UNC"> </a></div>
+    <div class="col p-2 md-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/undef.png" alt="UNDEF"> </a></div>
+    <div class="col p-2 md-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/uner.png" alt="UNER"> </a></div>
+    <div class="col p-2 sm-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/unl.png" alt="UNL"> </a></div>
+    <div class="col p-2 md-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/unraf.png" alt="UNRAF"> </a></div>
+    <div class="col p-2 md-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/unrc.png" alt="UNRC"> </a></div>
+    <div class="col p-2 md-2"><a class="text-body-secondary" href="#"> <img class="img-fluid" src="logos/unr.png" alt="UNR"> </a></div>
+  </div>
+
+
+
+    </footer>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
